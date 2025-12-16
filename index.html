@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Емоційний інтелект: Варіант 11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="middle">
+        <div class="left">
+            <div class="header">
+                <div class="phraseX">Що насправді означає бути розумним?</div>
+                <button id="play_main" class="control-btn">Запустити (Play)</button>
+            </div>
+
+            <div class="main">
+                <div class="block3" id="original-block3">
+                    <div class="content">
+                        <blockquote>«EQ — це розум, що відчуває»</blockquote>
+                        <img src="images/first_image.jpg" alt="Емоції">
+                    </div>
+                </div>
+
+                <div class="column" id="original-column">
+                    <div class="block4">Що таке емоційний інтелект?</div>
+                    <div class="block5">
+                        <p>Емоційний інтелект (EQ) — це здатність людини усвідомлювати власні емоції, розуміти почуття інших та ефективно ними керувати...</p>
+                    </div>
+                </div>
+
+                <div class="work" id="work" style="display: none;">
+                    <div class="control-area" id="controls">
+                        <div class="controls-top">
+                            <button id="close" class="control-btn">Close</button>
+                            <button id="start" class="control-btn" style="display: none;">Start</button>
+                            <button id="stop" class="control-btn" style="display: none;">Stop</button>
+                            <button id="reload" class="control-btn" style="display: none;">Reload</button>
+                            <input type="number" id="step-size" value="1" min="1" max="10" title="Крок анімації (1-10)">
+                            <span class="info-text">Крок:</span>
+                        </div>
+                        <div class="controls-output" id="controls-output">
+                            Події та час:
+                            <table id="event-table">
+                                <thead><tr><th>Подія</th><th>Лок. час</th><th>Серв. час</th></tr></thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="anim" id="anim">
+                        <div class="circle" id="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <ul class="menu">
+                <li><a href="index.html">Що таке EQ?</a></li>
+                <li><a href="page2.html">Складові</a></li>
+                <li><a href="page3.html">Дослідники та їх праці EQ</a></li>
+                <li><a href="page4.html">Роль у житті</a></li>
+                <li><a href="page5.html">Практики розвитку</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="phraseY">Розум, що думає, і розум, що відчуває.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
